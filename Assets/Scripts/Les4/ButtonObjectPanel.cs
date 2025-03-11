@@ -10,9 +10,9 @@ public class ButtonObjectPanel : ObjectPanelInfo
 
     private void Start()
     {
-        buttonLevelUp.onClick.AddListener(() =>
+     /*   buttonLevelUp.onClick.AddListener(() =>
         {
             Debug.Log("Weapon Level Up");
-        });
+        });*/
     }
 }
