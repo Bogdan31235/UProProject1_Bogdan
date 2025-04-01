@@ -29,7 +29,7 @@ public class RobotWaiterSmall : RobotWaiter
         }
     }
 
-    public  override void Use()
+    public override void Use()
     {
         Debug.Log("Хотите, чтобы я принёс вам воду или кофе? Нажмите 5 или 4 соответственно.");
     }
@@ -54,4 +54,5 @@ public class RobotWaiterSmall : RobotWaiter
             yield return new WaitForSeconds(0.01f);
         }
     }
+
 }

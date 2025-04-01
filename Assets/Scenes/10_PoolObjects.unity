@@ -274,7 +274,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &561593404
+--- !u!1 &1241677341
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,8 +282,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 561593406}
-  - component: {fileID: 561593405}
+  - component: {fileID: 1241677343}
+  - component: {fileID: 1241677342}
   m_Layer: 0
   m_Name: EntryPoint
   m_TagString: Untagged
@@ -291,52 +291,52 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &561593405
+--- !u!114 &1241677342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561593404}
+  m_GameObject: {fileID: 1241677341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a5e709d33a1ca4cb4787bc86a3fb93, type: 3}
+  m_Script: {fileID: 11500000, guid: b122c85ea47f8c9459832daeb9883f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 3836976834850010167, guid: eeb5ca65efcf09a4a9754e82767874a2, type: 3}
---- !u!4 &561593406
+  bullet: {fileID: 5352068084818986549, guid: 35758fd748517744fae925a857cb3d50, type: 3}
+--- !u!4 &1241677343
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561593404}
+  m_GameObject: {fileID: 1241677341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.050743, y: 11.785641, z: -18.533321}
+  m_LocalPosition: {x: 1.2558415, y: 2.2624738, z: 1.6338911}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1458478928 stripped
+--- !u!1 &1594121549 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3633801496117044351, guid: 111c5837927994d429e954e6fca3ffdb, type: 3}
   m_PrefabInstance: {fileID: 130673930}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1458478929
+--- !u!114 &1594121558
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458478928}
+  m_GameObject: {fileID: 1594121549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fe339eca9121b2458622f2d0516ca1f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e4b58b73b29e6a44bc0a17300d8c6d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 3836976834850010167, guid: eeb5ca65efcf09a4a9754e82767874a2, type: 3}
+  bullet: {fileID: 5352068084818986549, guid: 35758fd748517744fae925a857cb3d50, type: 3}
 --- !u!1 &8232223665959665121
 GameObject:
   m_ObjectHideFlags: 0

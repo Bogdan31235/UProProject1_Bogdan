@@ -1,4 +1,5 @@
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
@@ -10,6 +11,7 @@ public class LetterR : MonoBehaviour, ILetter
     public void Click()
     {
         Sequence seq = DOTween.Sequence();
+
         seq.Append(mat.DOColor(Random.ColorHSV(), 1f));
         seq.AppendInterval(2f);
         seq.Append(mat.DOColor(currentColor, 1f));
@@ -22,5 +24,5 @@ public class LetterR : MonoBehaviour, ILetter
         mat = GetComponent<MeshRenderer>().material;
         currentColor = mat.color;
     }
-  
+
 }

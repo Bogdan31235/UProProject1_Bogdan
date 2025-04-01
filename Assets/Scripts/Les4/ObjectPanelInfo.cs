@@ -6,7 +6,6 @@ using TMPro;
 
 public class ObjectPanelInfo : MonoBehaviour
 {
-    
     [SerializeField]
     private Image imageObject;
     [SerializeField]
@@ -15,16 +14,13 @@ public class ObjectPanelInfo : MonoBehaviour
     private Sprite spriteObject;
     [SerializeField]
     private string nameObject;
-    
+
     
 
     private void Awake()
     {
         imageObject.sprite = spriteObject;
         textObject.text = nameObject;
-
-        
     }
     
-
 }

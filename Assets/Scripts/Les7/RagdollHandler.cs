@@ -9,7 +9,7 @@ public class RagdollHandler : MonoBehaviour
 
     public void Initilize()
     {
-        rbs = new List<Rigidbody>(GetComponentsInChildren<Rigidbody>());//добавляет в лист все объекты 
+        rbs = new List<Rigidbody>(GetComponentsInChildren<Rigidbody>());
         Disable();
     }
 
@@ -23,13 +23,13 @@ public class RagdollHandler : MonoBehaviour
     public void Enable()
     {
         foreach (Rigidbody rb in rbs)
-            rb.isKinematic = false;//выключается кинематика и включается рэгдолл
+            rb.isKinematic = false;
     }
 
     public void Disable()
     {
         foreach (Rigidbody rb in rbs)
             if(!rb.GetComponent<Sword>())
-                rb.isKinematic = true;//кинематика включается,а рэгдол выключается
+                rb.isKinematic = true;
     }
 }

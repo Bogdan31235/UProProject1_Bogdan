@@ -5,15 +5,12 @@ using UnityEngine;
 public class PlayerTakeTools : MonoBehaviour
 {
     [SerializeField]
-    private Transform position;
+    private Transform positon;
 
+    
     private void OnTriggerStay(Collider other)
     {
         if (Input.GetKey(KeyCode.E))
-            other.GetComponent<ITool>()?.Take(position.localPosition, transform);
+            other.GetComponent<ITool>()?.Take(positon.localPosition, transform);
     }
- 
 }
-
-
-   

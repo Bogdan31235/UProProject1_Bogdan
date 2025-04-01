@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &405034747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 405034749}
+  - component: {fileID: 405034748}
+  m_Layer: 0
+  m_Name: ActionRobots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &405034748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405034747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f661e3afe3223047858883aab154a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &405034749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405034747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.78, y: 0.25000024, z: 12.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &477710413
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,53 +405,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 902237148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1caf8a56228d7914c904afbb3de43b63, type: 3}
+  m_Script: {fileID: 11500000, guid: a168c781dd694f541aa40fed39e2c50b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1002956569
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1002956571}
-  - component: {fileID: 1002956570}
-  m_Layer: 0
-  m_Name: ActionRobot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1002956570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002956569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e1c94555cf02694d88e066101bdad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1002956571
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002956569}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.901832, y: -11.674618, z: 80.968414}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1412509238
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1855310120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 959389c301cd75f4bb286d37e83c7898, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c1770b0c94736a41bff5bd94371d284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _coffe: {fileID: 2804596478679021916, guid: 3dfbaec8b8aad9845ac0235d84173670, type: 3}
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2274221844769094079}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdac8dbe23d24dd459cc2e7cbee889b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 428439989f6ab614ca2a9c6362a29356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _coffe: {fileID: 2804596478679021916, guid: 3dfbaec8b8aad9845ac0235d84173670, type: 3}

@@ -7,12 +7,13 @@ public class ButtonObjectPanel : ObjectPanelInfo
 {
     [SerializeField]
     private Button buttonLevelUp;
-
-    private void Start()
+    void Start()
     {
-     /*   buttonLevelUp.onClick.AddListener(() =>
+        buttonLevelUp.onClick.AddListener(() =>
         {
-            Debug.Log("Weapon Level Up");
-        });*/
+            Debug.Log("Weapon Level UP");
+        });
     }
+
+ 
 }

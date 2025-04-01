@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class ButtonMove : MonoBehaviour
 {
-    [SerializeField]
+    [SerializeField] 
     private float time = 2f;
     void Start()
     {

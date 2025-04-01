@@ -1,6 +1,6 @@
 
 
-public interface IWaiter 
+public interface IWaiter
 {
-   public void Bring();
+    public void Bring();
 }

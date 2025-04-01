@@ -7,6 +7,7 @@ public class EntryPointLes11 : MonoBehaviour
     void Start()
     {
         FindObjectOfType<FSMController>()?.Init();
+        FindObjectOfType<FSMControllerLes12>()?.Init();
     }
 
     

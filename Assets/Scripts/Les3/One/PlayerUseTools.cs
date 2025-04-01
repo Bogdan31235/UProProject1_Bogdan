@@ -8,7 +8,5 @@ public class PlayerUseTools : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
             GetComponentInChildren<ITool>()?.Use();
-       
     }
-
 }

@@ -6,7 +6,7 @@ public class PlayerThrowTools : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))
             GetComponentInChildren<ITool>()?.Throw();
     }
 }

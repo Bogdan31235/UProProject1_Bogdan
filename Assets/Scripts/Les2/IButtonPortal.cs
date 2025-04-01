@@ -1,7 +1,6 @@
 
 
-public interface IButtonPortal 
+public interface IButtonPortal
 {
     void ClickButton();
-    
 }

@@ -346,7 +346,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 51072811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97d45f838b74b2c4ab75a7e9b27cd343, type: 3}
+  m_Script: {fileID: 11500000, guid: 0512a59c6ef44094691ef178582429e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &270932975
@@ -360,10 +360,10 @@ GameObject:
   - component: {fileID: 270932981}
   - component: {fileID: 270932980}
   - component: {fileID: 270932979}
-  - component: {fileID: 270932982}
   - component: {fileID: 270932978}
   - component: {fileID: 270932977}
   - component: {fileID: 270932976}
+  - component: {fileID: 270932982}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 270932975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a61c82b6077c2e448507ed1412dd97c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4683705022e9d964e84ca4b5a61198f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &485292286
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1224848800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03d71376dc5befd4a82eaa912ba965d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 3452f1f3d7f4a4040bbbb5f8315153ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1932676077
@@ -952,7 +952,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015161476}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 1.57, y: -0.476, z: -0.6579218}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8480494005373521138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3323f7a56bde6b14ab2daa20e39cb6c9, type: 3}
+  m_Script: {fileID: 11500000, guid: e70dff1cdefac1c45895a9ea504351da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 8063422537727930152, guid: 16ac35fc7ac998345b232d2010b6d371, type: 3}

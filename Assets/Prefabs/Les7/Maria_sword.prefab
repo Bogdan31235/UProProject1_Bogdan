@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1008851216873978594}
   - component: {fileID: 8418980965479490128}
   - component: {fileID: 7327077992605782291}
-  - component: {fileID: 2187487186050807186}
+  - component: {fileID: 8186952203540368398}
   m_Layer: 0
   m_Name: Maria_sword
   m_TagString: Untagged
@@ -116,7 +116,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 45dca2bc52ffac4458d136496418cf98, type: 2}
---- !u!114 &2187487186050807186
+--- !u!114 &8186952203540368398
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1354285804711249224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bbb4427b18650f42aa9b5d988d4305c, type: 3}
+  m_Script: {fileID: 11500000, guid: 013936b880d60f54aad57d99f8cf2726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 0}

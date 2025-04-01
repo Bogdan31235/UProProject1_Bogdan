@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class GameEntryPoint : MonoBehaviour
 {
-    [SerializeField]
-    private CreatePlayer player;
-    [SerializeField]
-    private FindCharacter[] enemy;
+    [SerializeField] CreatePlayer createPlayer;
+    [SerializeField] FindCharacter[] findCharacter;
 
     private void Awake()
     {
-        player.Init();
-        foreach (var en in enemy)
-            en.Init();
+        createPlayer.Init();
+        foreach (var enemy in findCharacter) enemy.Init();
     }
-
-
 }

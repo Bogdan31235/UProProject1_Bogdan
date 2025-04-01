@@ -11,11 +11,11 @@ public class RobotMechanic : MonoBehaviour, IRobots
 
     public void Greeting()
     {
-        Debug.Log("Привет! Я персональный механик");
+        Debug.Log("Привет! Я персональный механик!");
     }
 
     public void Use()
     {
-        Debug.Log("Что вы хотите, чтобы я починил");
+        Debug.Log("Что вы хотите, чтобы я починил?");
     }
 }

@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-   [SerializeField]
-   private GameObject _robot;
+    [SerializeField]
+    private GameObject _robot;
     [SerializeField]
     private GameObject _turret;
     [SerializeField]
     private GameObject _komar;
 
-
     private IRobotMove robotEnemy;
     private ITurret turretEnemy;
     private IRobotMove komarEnemy;
+
     private void Start()
     {
         robotEnemy = _robot.GetComponent<IRobotMove>();

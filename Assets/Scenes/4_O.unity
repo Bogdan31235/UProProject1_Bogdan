@@ -394,6 +394,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 165029372}
     m_Modifications:
+    - target: {fileID: -1072206779679605585, guid: 182123b2d6186d94a8d032080b5642cd, type: 3}
+      propertyPath: buttonLevelUp
+      value: 
+      objectReference: {fileID: 989441546}
     - target: {fileID: 2028917102890397338, guid: 182123b2d6186d94a8d032080b5642cd, type: 3}
       propertyPath: m_Name
       value: ObjectPanel 2
@@ -482,10 +486,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8581633205939000374, guid: 182123b2d6186d94a8d032080b5642cd, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182123b2d6186d94a8d032080b5642cd, type: 3}
 --- !u!224 &989441545 stripped
@@ -493,6 +493,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2028917102890397339, guid: 182123b2d6186d94a8d032080b5642cd, type: 3}
   m_PrefabInstance: {fileID: 989441544}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &989441546 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9197478719421062779, guid: 182123b2d6186d94a8d032080b5642cd, type: 3}
+  m_PrefabInstance: {fileID: 989441544}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1226100960
 PrefabInstance:
   m_ObjectHideFlags: 0

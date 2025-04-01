@@ -8,6 +8,6 @@ public class BCreate : MonoBehaviour, IButtonPortal
 
     public void ClickButton()
     {
-        Instantiate(portal);
+        Instantiate(portal);    
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShootPlayer : MonoBehaviour
 {
+
     [SerializeField]
     private BulletLes10 bullet;
 
@@ -29,4 +30,5 @@ public class ShootPlayer : MonoBehaviour
     {
         isShoot = true;
     }
+
 }

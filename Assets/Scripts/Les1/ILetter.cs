@@ -1,6 +1,4 @@
-
-
-public interface ILetter 
+public interface ILetter
 {
-    void Click();   
+    void Click();
 }

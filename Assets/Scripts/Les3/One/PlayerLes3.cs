@@ -45,7 +45,7 @@ public class PlayerLes3 : MonoBehaviour
 
     private void MoveCharacter()
     {
-        Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+        Vector3 direction = new Vector3(Input.GetAxis("H2"), 0f, Input.GetAxis("V2"));
 
         direction = transform.TransformDirection(direction) * speedScale;
 

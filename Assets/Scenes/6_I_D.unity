@@ -301,53 +301,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1228624418
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1228624420}
-  - component: {fileID: 1228624419}
-  m_Layer: 0
-  m_Name: RobotController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1228624419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228624418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3059e718eb54a154d990e5f2d347fad8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _robot: {fileID: 1967907109}
-  _turret: {fileID: 4553591093560266805}
-  _komar: {fileID: 4331243460136457556}
---- !u!4 &1228624420
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228624418}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.243505, y: -10.935587, z: -81.67416}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1573388010
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +399,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1676737753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676737755}
+  - component: {fileID: 1676737754}
+  m_Layer: 0
+  m_Name: RobotController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1676737754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676737753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d476c3e716d36a46a223ffef762a6c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _robot: {fileID: 1967907109}
+  _turret: {fileID: 4553591093560266805}
+  _komar: {fileID: 4331243460136457556}
+--- !u!4 &1676737755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676737753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.86164564, y: 0.79478294, z: 0.7580312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1967907109
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,10 +505,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1967907109}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e49a4dddf66d87f439a17e434aea8828, type: 3}
+  m_Script: {fileID: 11500000, guid: 7726b123a3e55324f93e33f4f8ea6478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dist: 0
 --- !u!1 &223254220901393791
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,10 +985,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4331243460136457556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629410a624940df42907231d4c12480a, type: 3}
+  m_Script: {fileID: 11500000, guid: aecf9027f1205574c98113617a704a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dist: 0
 --- !u!23 &4529716552285686157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1098,7 +1096,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4553591093560266805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74253b2d0f4bf7140a5e446d662f8f9e, type: 3}
+  m_Script: {fileID: 11500000, guid: 29228d357369dc74b91a542fe5c2efce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4572124301396365858

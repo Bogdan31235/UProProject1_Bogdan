@@ -3,19 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class Brick : MonoBehaviour,IBuildBlock
+public class Brick : MonoBehaviour, IBuildBlock
 {
-
     private Renderer rend;
-
     private void Start()
     {
         rend = GetComponent<Renderer>();
     }
-
-   
-
-   public void ColorReset()
+    public void ColorReset()
     {
         Sequence sequence = DOTween.Sequence();
 
@@ -23,8 +18,7 @@ public class Brick : MonoBehaviour,IBuildBlock
 
         sequence.Play();
     }
-
-   public void DestroyBlock()
+    public void DestroyBlock()
     {
         Destroy(gameObject);
     }

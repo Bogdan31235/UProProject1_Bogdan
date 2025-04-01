@@ -4906,7 +4906,7 @@ GameObject:
   - component: {fileID: 7254411415066686866}
   - component: {fileID: 5981628210605570615}
   - component: {fileID: 8423970337104416509}
-  - component: {fileID: 8422933689963530910}
+  - component: {fileID: 5859497687747151744}
   m_Layer: 0
   m_Name: Portal_01
   m_TagString: Untagged
@@ -4981,7 +4981,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8422933689963530910
+--- !u!114 &5859497687747151744
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4990,6 +4990,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8063422537727930152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84435a31f8f35b94ea04842cf3486fb9, type: 3}
+  m_Script: {fileID: 11500000, guid: 45a91db816802dd429ca91f1e4fc9eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
